@@ -6,15 +6,17 @@ int main() {
 
     int sum =0;
     int average =0;
+    int counter=0;
 
     for(int i=a; i<=b; i++)
     {
         if(i%5==0 || i%7==0)
        { sum+=i;
+        counter++;
        }
     }
 
-    average=double(sum)/(b-a+1);
+    average=double(sum)/counter;
 
     cout<<fixed;
     cout.precision(1);
