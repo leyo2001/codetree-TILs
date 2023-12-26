@@ -9,22 +9,25 @@ int main() {
     {
         if(n>=90)
         {
-            cout<<"A ";
+            cout<<"A"<<" ";
         }
         else if(n>=80)
         {
-            cout<<"B ";
+            cout<<"B"<<" ";
         }
         else if(n>=70)
         {
-            cout<<"C ";
+            cout<<"C"<<" ";
         }
         else if(n>=60)
         {
-            cout<<"D ";
+            cout<<"D"<<" ";
         }
         else
-        cout<<"F ";
+        
+        {
+            cout<<"F"<<" ";
+        }
     }
     // 여기에 코드를 작성해주세요.
     return 0;
