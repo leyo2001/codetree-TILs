@@ -9,9 +9,9 @@ int main() {
     {   
         int a;
         cin>>a;
-        if(n%2==1 && n%3==0)
+        if(a%2==1 && a%3==0)
         {
-            cout<<n<<endl;
+            cout<<a<<endl;
         }
     }
     // 여기에 코드를 작성해주세요.
