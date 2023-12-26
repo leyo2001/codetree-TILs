@@ -15,7 +15,7 @@ int main() {
         }
     }
 
-    if(n==i)
+    if(n==sum)
     {
         cout<<"P";
     }
