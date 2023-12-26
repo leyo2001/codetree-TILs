@@ -23,8 +23,7 @@ int main() {
         {
             cout<<"D"<<" ";
         }
-        else
-        
+        else if(n<60)
         {
             cout<<"F"<<" ";
         }
