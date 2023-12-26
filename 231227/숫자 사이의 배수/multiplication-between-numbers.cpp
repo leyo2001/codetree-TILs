@@ -9,7 +9,7 @@ int main() {
 
     for(int i=a; i<=b; i++)
     {
-        sum+=a;
+        sum+=i;
     }
 
     average=double(sum)/(b-a+1);
