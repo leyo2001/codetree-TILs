@@ -7,14 +7,14 @@ int main() {
     for(int i=a;i<=b;)
     {
         if(i%2==1)
-        {
+        {   cout<<i<<" ";
             i*=2;
-            cout<<i<<" ";
+            
         }
         else
-        {
+        {   cout<<i<<" ";
             i+=3;
-            cout<<i<<" ";
+            
         }
     }
     // 여기에 코드를 작성해주세요.
