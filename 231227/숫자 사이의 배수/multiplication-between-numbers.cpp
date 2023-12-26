@@ -15,7 +15,7 @@ int main() {
     average=double(sum)/(b-a+1);
 
     cout<<fixed;
-    cout.presicion(1);
+    cout.precision(1);
     cout<<sum<<" "<<average;
     
     // 여기에 코드를 작성해주세요.
