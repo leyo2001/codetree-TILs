@@ -4,8 +4,18 @@ int main() {
     int a,b;
     cin>>a>>b;
 
+    if(a>b)
+    {
+        int t;
+        t=a;
+        a=b;
+        b=t;
+    }
+
+
     int sum =0;
    
+
 
     for(int i=a;i<=b;i++)
     {
