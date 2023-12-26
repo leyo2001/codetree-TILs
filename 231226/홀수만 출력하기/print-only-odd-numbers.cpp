@@ -3,8 +3,9 @@ using namespace std;
 int main() {
 
     int n;
+    cin>>n;
 
-    while(cin>>n)
+    for(int i=1;i<=n;i++)
     {
         if(n%2==1 && n%3==0)
         {
