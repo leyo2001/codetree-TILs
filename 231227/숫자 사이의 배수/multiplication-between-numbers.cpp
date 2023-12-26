@@ -5,7 +5,7 @@ int main() {
     cin>>a>>b;
 
     int sum =0;
-    int average =0;
+    double average =0;
     int counter=0;
 
     for(int i=a; i<=b; i++)
