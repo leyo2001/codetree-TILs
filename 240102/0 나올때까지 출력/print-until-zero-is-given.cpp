@@ -9,10 +9,11 @@ int main() {
         
 
         cin>>n;
-        cout<<n<<endl;
-
         if(n==0)
         break;
+        cout<<n<<endl;
+
+        
 
         
     }
