@@ -6,11 +6,13 @@ int main() {
 
     while(true)
     {
-        if(n==0)
-        break;
         
+
         cin>>n;
         cout<<n<<endl;
+
+        if(n==0)
+        break;
 
         
     }
