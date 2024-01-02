@@ -13,7 +13,7 @@ int main() {
         }
     }
 
-    if(d=true)
+    if(d==true)
     {
         cout<<"YES"<<endl;
     }
