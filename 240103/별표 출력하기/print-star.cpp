@@ -13,14 +13,16 @@ int main() {
         cout<<endl;
     }
 
-    for(int k=n+1; k<=2*n-1; k++)
+    for(int i=n-1; i>=1; i--)
     {
-        for(int q=n-1; q>=1; q--)
+        for(int j=1; j<=i; j++)
         {
             cout<<"* ";
         }
         cout<<endl;
     }
+
+
 
     // 여기에 코드를 작성해주세요.
     return 0;
