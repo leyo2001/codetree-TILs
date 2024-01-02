@@ -2,18 +2,18 @@
 using namespace std;
 int main() {
     int a,b,c;
-    bool d=0;
+    bool d=false;
     cin>>a,b,c;
 
     for(int i=a; i<=b; i++)
     {
         if(i%c==0)
         {
-            d=1;
+            d=true;
         }
     }
 
-    if(d=1)
+    if(d=true)
     {
         cout<<"YES"<<endl;
     }
