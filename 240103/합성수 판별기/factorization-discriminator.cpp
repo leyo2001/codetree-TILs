@@ -18,12 +18,12 @@ int main() {
 
     if(b==true)
     {
-        cout<<C;
+        cout<<"C";
     }
 
     else
     {
-        cout<<N;
+        cout<<"N";
     }
     // 여기에 코드를 작성해주세요.
     return 0;
