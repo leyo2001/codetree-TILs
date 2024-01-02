@@ -3,7 +3,7 @@ using namespace std;
 int main() {
     int n;
     int cnt=0;
-
+    cin>>n;
 
     while(n<1000)
     {
@@ -11,14 +11,14 @@ int main() {
         {
             n=3*n+1;
             cnt++;
-            cout<<cnt<<endl;
+            
         }
 
         else
         {
             n=2*n+2;
             cnt++;
-            cout<<cnt<<endl;
+            
         }
     }
 
