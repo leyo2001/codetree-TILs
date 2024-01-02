@@ -6,8 +6,14 @@ int main() {
     cin>>n;
     bool b=false;
 
-    for(int i =1; i<=500; i++)
-    {
+    for(int i =2; i<=500; i++)
+    {   
+
+        if(n==i)
+        {
+            continue;
+        }
+        
         if(n%i==0)
         {   
             b=true;
