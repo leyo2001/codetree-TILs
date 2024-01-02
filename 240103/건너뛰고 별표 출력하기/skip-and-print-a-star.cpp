@@ -12,6 +12,7 @@ int main() {
             cout<<"*";
         }
         cout<<endl;
+        cout<<endl;
     }
 
     for(int i=n-1; i>=1; i--)
@@ -20,6 +21,7 @@ int main() {
         {
             cout<<"*";
         }
+        cout<<endl;
         cout<<endl;
     }
     // 여기에 코드를 작성해주세요.
