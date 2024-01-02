@@ -6,7 +6,7 @@ int main() {
     int counter=0;
     cin>>n;
 
-    whlie(n!=1)
+    while(n!=1)
     {
         n/=2;
         counter++;
