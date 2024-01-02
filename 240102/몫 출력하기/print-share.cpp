@@ -21,7 +21,7 @@ int main() {
 
         if(n%2==0)
         {
-            cout<<n/2<<end;
+            cout<<n/2<<endl;
             counter++;
         }
 
