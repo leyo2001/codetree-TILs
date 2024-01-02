@@ -10,6 +10,7 @@ int main() {
         if(i%c==0)
         {
             d=true;
+            break;
         }
     }
 
