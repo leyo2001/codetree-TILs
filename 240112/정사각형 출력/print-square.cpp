@@ -14,7 +14,7 @@ int main() {
             cout<<cnt<<" ";
             cnt++;
         }
-        cout<<end;
+        cout<<endl;
     }
 
     // 여기에 코드를 작성해주세요.
