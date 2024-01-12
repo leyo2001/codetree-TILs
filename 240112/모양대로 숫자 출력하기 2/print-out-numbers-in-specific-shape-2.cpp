@@ -14,7 +14,7 @@ int main() {
             cnt*=2;
             if(cnt>8)
             {
-                cnt=1;
+                cnt=2;
             }
         }
         cout<<endl;
