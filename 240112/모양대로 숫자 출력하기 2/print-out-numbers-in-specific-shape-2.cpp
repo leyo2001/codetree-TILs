@@ -11,7 +11,7 @@ int main() {
         for(int j=1; j<=n; j++)
         {
             cout<<cnt<<" ";
-            cnt*=2;
+            cnt+=2;
             if(cnt>8)
             {
                 cnt=2;
