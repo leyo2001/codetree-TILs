@@ -15,14 +15,14 @@ int main() {
                 cout<< "* ";
             }
 
-            else if(i>=j)
+            else if(i>j)
             {
-                cout<<"  ";
+                cout<<"* ";
             }
 
             else
             {
-                cout<<"* ";
+                cout<<"  ";
             }
 
         
