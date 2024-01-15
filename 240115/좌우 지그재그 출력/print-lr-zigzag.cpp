@@ -4,7 +4,7 @@ int main() {
 
     int n;
     cin>>n;
-    int cnt=0;
+    int cnt=1;
 
     for(int i=1; i<=n; i++)
     {
@@ -12,9 +12,9 @@ int main() {
         {
             for(int j=1; j<=n; j++)
             {
+            
+                cout<<cnt<<" ";
                 cnt++;
-                cout<<cnt;
-                
             }
             cout<<endl;
         }
@@ -22,10 +22,10 @@ int main() {
         {
             for(int j=1; j<=n; j++)
             {
-                cout<<cnt+n;
+                cout<<cnt+n-1<<" ";
                 cnt--;
             }
-            cnt=n+1;
+            cnt=cnt+2*n;
             cout<<endl;
         }
     }
