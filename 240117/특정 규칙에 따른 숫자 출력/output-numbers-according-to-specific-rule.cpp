@@ -17,6 +17,10 @@ int main() {
             {
                 cout<<cnt<<" ";
                 cnt++;
+                if(cnt>9)
+                {
+                    cnt=1;
+                }
             }
             
         }
