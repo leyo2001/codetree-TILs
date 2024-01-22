@@ -6,7 +6,7 @@ int main() {
 
     for (int i=1; i<=2; i++)
     {
-        for (int j=1; j<=2; j++)
+        for (int j=1; j<=n; j++)
         {
             cout<<i<<" * "<<j<<" = "<<i*j<<endl; 
         }
