@@ -12,6 +12,10 @@ int main() {
         {
             cout<<x;
             x++;
+            if(x>'Z')
+            {
+                x = 'A';
+            }
         }
         cout<<endl;
 
