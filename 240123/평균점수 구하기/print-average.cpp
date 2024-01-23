@@ -4,7 +4,7 @@ int main() {
 
     double sum = 0.0;
     double average;
-    int score;
+    double score;
 
     for(int i=1; i<=8; i++)
     {
@@ -13,7 +13,8 @@ int main() {
     }
 
     average = sum / 8.0;
-
+    cout<<fixed;
+    cout.precision(1);
     cout<<average;
 
 
