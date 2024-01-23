@@ -12,6 +12,7 @@ int main() {
         if(num==0)
         {
             average = double(sum) / (i-1);
+            break;
         }
         sum+=num;
         if(i==10)
