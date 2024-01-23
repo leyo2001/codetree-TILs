@@ -17,7 +17,7 @@ int main() {
         sum += arr[i];
         cnt++;
     }
-    for(int i =2 ; i<9; i+=3)
+    for(int i =2 ; i<-=9; i+=3)
     {
         sum += arr[i];
         cnt++;
