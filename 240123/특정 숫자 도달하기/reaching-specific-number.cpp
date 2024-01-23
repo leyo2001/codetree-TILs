@@ -30,9 +30,11 @@ int main() {
             average = double(sum) / 10;
         }
         
-        cout<<sum<<" "<<average;
-        
+    
     }
+    cout<<fixed;
+    cout.precision(1);
+    cout<<sum<<" "<<average;
 
     
 
