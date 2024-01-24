@@ -12,11 +12,12 @@ int main() {
         {
             max = n;
         }
-        else
+        else if(max<n)
         {
-            max < n;
+            
             max =n;
         }
+        
     }
 
 
