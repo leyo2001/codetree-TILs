@@ -16,9 +16,9 @@ int main() {
 
     }
 
-    for(int i=1; i<=10; i++)
+    for(int i=10; i>=1; i--)
     {
-        cout<<i<<" - "<<count_arr[i]<<endl;
+        cout<<i*10<<" - "<<count_arr[i]<<endl;
     }
 
 
