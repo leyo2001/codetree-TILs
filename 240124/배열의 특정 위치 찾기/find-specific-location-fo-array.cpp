@@ -24,7 +24,7 @@ int main() {
     avearge = double(sum_thr) / 3.0;
 
     cout<<fixed;
-    cout.pricision(1);
+    cout.precision(1);
     cout<<sum_even<<" "<<avearge;
 
 
