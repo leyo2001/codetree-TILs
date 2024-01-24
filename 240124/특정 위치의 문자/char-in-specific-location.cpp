@@ -11,13 +11,15 @@ int main() {
     for(int i=0; i<6; i++)
     {
         if(arr[i]==a)
-        {
+        {   
             index = i;
+
             break;
         }
     }
 
-    if(index=-1)
+    
+    if(index==-1)
     {
         cout<<"None";
     }
