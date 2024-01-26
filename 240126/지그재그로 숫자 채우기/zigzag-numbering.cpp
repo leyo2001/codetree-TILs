@@ -11,16 +11,19 @@ int main() {
     
     for(int j=0; j<m; j++)
     {
-        for(int i=0; i<n; i++)
-        {   
-            if(j%2==0)
+        if(j%2==0)
+        {
+            for(int i=0; i<n; i++)
             {
                 arr[i][j] = count;
                 count++;
             }
-            else
+        }
+        else
+        {
+            for(int i=n-1; i>=0; i--)
             {
-                arr[i][j] =n*(j+2)-1 - count;
+                arr[i][j] = count;
                 count++;
             }
         }
