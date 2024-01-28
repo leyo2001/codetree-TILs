@@ -8,8 +8,7 @@ int main() {
 
     cin>>a>>b;
 
-    cout<<a<<endl;
-    cout<<b<<endl;
+    cout<<a.length()+b.length();
 
     // 여기에 코드를 작성해주세요.
     return 0;
