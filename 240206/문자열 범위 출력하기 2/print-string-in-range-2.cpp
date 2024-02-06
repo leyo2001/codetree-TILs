@@ -11,7 +11,7 @@ int main() {
     cin>>b;
 
 
-    for(int i=0; i<11; i++)
+    for(int i=0; i<b; i++)
     {
         cout<<a[a.length()-1-i];
     }
