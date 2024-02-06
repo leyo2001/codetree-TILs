@@ -12,7 +12,15 @@ int main() {
 
 
     for(int i=0; i<b; i++)
-    {
+    {   
+        if(a.length()-1-(b-1)>a.length())
+        {
+            for(int j=a.length()-1; j>=0; j--)
+            {
+                cout<<a[j];
+            }
+            break;
+        }
         cout<<a[a.length()-1-i];
     }
 
