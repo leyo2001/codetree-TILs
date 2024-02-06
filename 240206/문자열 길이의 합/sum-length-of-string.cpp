@@ -12,12 +12,9 @@ int main() {
     {
         cin>>arr[i];
         sum += arr[i].length();
-        for(int j=0; j<arr[i].length(); j++)
+        if(arr[i][0] == 'a')
         {
-            if(arr[i][j] == 'a')
-            {
-                cnt++;
-            }
+            cnt++;
         }
     }
 
