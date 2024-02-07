@@ -8,11 +8,14 @@ int main() {
 
     string total = "";
 
-    string a,b,c;
+    string arr[n];
 
-    cin>>a>>b>>c;
-
-    total = total +a+b+c;
+    for(int i=0; i<n; i++)
+    {
+        cin>>arr[i];
+        total +=arr[i];
+        
+    }
 
     cout<<total;
 
