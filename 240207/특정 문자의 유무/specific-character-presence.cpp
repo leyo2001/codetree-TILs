@@ -5,21 +5,8 @@ int main() {
 
     string a;
     cin>>a;
-    bool ee = false;
-    bool ab = false;
-    for(int i=0; i<a.length()-2; i++)
-    {
-        if(a.substr(i,2) == "ee")
-        {
-            ee = true;
-        }
-        if(a.substr(i,2) == "ab")
-        {
-            ab = true;
-        }
-    }
-
-    if(ee == true)
+    
+    if(a.find("ee") != string::npos)
     {
         cout<<"Yes ";
     }
@@ -27,8 +14,7 @@ int main() {
     {
         cout<<"No ";
     }
-
-    if(ab == true)
+    if(a.find("ab") != string::npos)
     {
         cout<<"Yes";
     }
@@ -36,6 +22,8 @@ int main() {
     {
         cout<<"No";
     }
+    
+    
     
     // 여기에 코드를 작성해주세요.
     return 0;
