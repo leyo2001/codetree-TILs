@@ -6,7 +6,7 @@ int main() {
     int n;
     cin>>n;
 
-    sting total = "";
+    string total = "";
 
     string a,b,c;
 
