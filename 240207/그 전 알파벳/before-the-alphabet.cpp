@@ -5,9 +5,9 @@ int main() {
     char a;
     cin>>a;
 
-    if(a=='z')
+    if(a=='a')
     {
-        cout<<'a';
+        cout<<'z';
     }
     else
     {
