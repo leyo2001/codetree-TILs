@@ -9,7 +9,7 @@ int main() {
     
     for(int i=0; i<b.length(); i++)
     {
-        if((b[i]>='A'&&b[i]<'Z')||(b[i]>='a'&&b[i]<='z'))
+        if((b[i]>='A'&&b[i]<='Z')||(b[i]>='a'&&b[i]<='z'))
         {
             cout<<(char)tolower(b[i]);
         }
