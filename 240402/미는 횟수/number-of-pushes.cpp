@@ -29,7 +29,7 @@ int main() {
         }
     }
 
-    if(cnt == a.length())
+    if(cnt == a.length()-1)
     {
         cout<<-1;
     }
