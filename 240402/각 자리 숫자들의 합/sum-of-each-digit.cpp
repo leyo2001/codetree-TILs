@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0; i<s.length(); i++)
     {
-        a += stoi(s[i]);
+        a += stoi(to_string(s[i]));
     }
 
     cout<<a;
