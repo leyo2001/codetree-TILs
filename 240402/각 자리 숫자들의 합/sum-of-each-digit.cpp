@@ -7,15 +7,15 @@ int main() {
     cin>>n;
 
     string s = to_string(n);
-
-    int a=0;
+    
+    int sum=0;
 
     for(int i=0; i<s.length(); i++)
     {
-        a += stoi(to_string(s[i]));
+        sum += to_string(s[i]) - '0';
     }
-
-    cout<<a;
+    cout<<sum;
+    
 
     // 여기에 코드를 작성해주세요.
     return 0;
