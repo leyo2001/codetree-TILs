@@ -12,7 +12,7 @@ int main() {
 
     for(int i=0; i<s.length(); i++)
     {
-        sum += to_string(s[i]) - '0';
+        sum += s[i] - '0';
     }
     cout<<sum;
     
