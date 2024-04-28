@@ -13,11 +13,11 @@ int d1(int n, int m)
     {
         min=n;
     }
-    for(int i=0; i<min; i++)
+    for(int i=1; i<=min; i++)
     {
-        if(n%d==0&&m%d==0)
+        if(n%i==0&&m%i==0)
         {
-            d++;
+            d=i;
         }
     }
     return d;
