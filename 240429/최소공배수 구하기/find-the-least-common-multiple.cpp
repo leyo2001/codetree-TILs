@@ -32,7 +32,7 @@ int t(int n, int m, int d)
     }
     while(true)
     {
-        if((d*cnt)>m && (d*cnt)>n && (d*cnt)%m==0 && (d*cnt)%n==0)
+        if((d*cnt)>=m && (d*cnt)>=n && (d*cnt)%m==0 && (d*cnt)%n==0)
         {
             return d*cnt;
         }
