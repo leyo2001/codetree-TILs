@@ -26,6 +26,10 @@ int d1(int n, int m)
 int t(int n, int m, int d)
 {   
     int cnt =1;
+    if(n==m)
+    {
+        return n;
+    }
     while(true)
     {
         if((d*cnt)>m && (d*cnt)>n && (d*cnt)%m==0 && (d*cnt)%n==0)
