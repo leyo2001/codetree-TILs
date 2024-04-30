@@ -25,12 +25,28 @@ void season(int M)
 
 bool isYoon(int Y)
 {
-    if((Y%4==0&&Y%100==0&&Y%400==0) ||(Y%4==0&&Y%100!=0))
-        return true;
-    else if(Y%4==0)
-        return true;
+    if(Y%4==0)
+    {
+        if(Y%100==0)
+        {
+            if(Y%400==0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return true;
+        }
+    }
     else
+    {
         return false;
+    }
     
 }
 
