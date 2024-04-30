@@ -34,7 +34,7 @@ bool exist(int M, int D)
         }
     }
 
-    else
+    else if(M<12)
     {
         if(D<=30)
         {
@@ -44,6 +44,10 @@ bool exist(int M, int D)
         {
             return false;
         }
+    }
+    else
+    {
+        return false;
     }
 
 
