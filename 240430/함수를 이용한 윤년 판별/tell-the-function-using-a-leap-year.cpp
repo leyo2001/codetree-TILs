@@ -8,6 +8,8 @@ bool isYoon(int y)
         return false;
     if(y%4==0)
         return true;
+    else
+        return false;
     
 }
 
