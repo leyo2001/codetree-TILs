@@ -11,15 +11,15 @@ void season(int M)
     }
     else if(M>2 && M<6)
     {
-        cout<<"Sprint";
+        cout<<"Spring";
     }
-    else if(M>6 && M<9)
+    else if(M>=6 && M<9)
     {
-        cout<<"Fall";
+        cout<<"Summer";
     }
     else
     {
-        cout<<"Summer";
+        cout<<"Fall";
     }
 }
 
@@ -36,7 +36,7 @@ bool isYoon(int Y)
 
 void result(int Y, int M, int D)
 {
-    for(int i=0; i<7; i++)
+    for(int i=0; i<7; i++) //31일인 날들
     {
         if(M==month31[i])
         {
@@ -45,9 +45,9 @@ void result(int Y, int M, int D)
         }
     }
 
-    if(M==2)
+    if(M==2)    //2월일때
     {
-        if(isYoon(Y))
+        if(isYoon(Y)) //윤년일때
         {
             if(D<30)
             {
@@ -74,7 +74,7 @@ void result(int Y, int M, int D)
             }
         }
     }
-    else
+    else //30일인 날들
     {   
         if(D<31)
         {
