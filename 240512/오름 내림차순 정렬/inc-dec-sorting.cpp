@@ -23,7 +23,7 @@ int main() {
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    sort(arr,arr+5,com);
+    sort(arr,arr+5,greater<int>());
 
     for(int i=0; i<n;i++)
     {
