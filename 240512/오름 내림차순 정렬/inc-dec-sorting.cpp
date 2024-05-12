@@ -18,13 +18,13 @@ int main() {
         cin>>arr[i];
     }
 
-    sort(arr,arr+5);
+    sort(arr,arr+n);
     for(int i=0; i<n;i++)
     {
         cout<<arr[i]<<" ";
     }
     cout<<endl;
-    sort(arr,arr+5,greater<int>());
+    sort(arr,arr+n,greater<int>());
 
     for(int i=0; i<n;i++)
     {
