@@ -15,8 +15,8 @@ int main() {
 
     for(int i=0; i<n; i++)
     {
-        if(max < arr[i]+arr[2*n-i])
-            max = arr[i]+arr[2*n-i];
+        if(max < arr[i]+arr[2*n-1-i])
+            max = arr[i]+arr[2*n-1-i];
     }
     cout<<max;
     // 여기에 코드를 작성해주세요.
